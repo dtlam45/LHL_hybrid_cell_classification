@@ -43,7 +43,7 @@ hybrid-cell-classification/
 
 Run the main script to process images end-to-end (Crop -> Predict -> Visualize):
 
-# Run for a specific image (Recommended for testing)
-# Edit TARGET_IMG_ID in src/main.py before running
+Run for a specific image (Recommended for testing)
+Edit TARGET_IMG_ID in src/main.py before running
 ```bash
 python visualization.py
