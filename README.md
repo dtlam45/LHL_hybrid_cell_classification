@@ -20,6 +20,7 @@ python evaluate.py --model convnext_base --loss spa --threshold tuned
 
 If you don’t have time to train the model from scratch, you can directly evaluate using our pretrained weights hosted on - [ConvNext_SCTC (Hugging Face)](https://huggingface.co/SoftmaxSamurai/ConvNext_SCTC)
 
+```md
 👁️ Visualization Tool (New Feature)
 
 This tool allows you to visualize key pathological cells directly on the original microscopic images, highlighting high-risk areas based on AI predictions.
@@ -28,11 +29,13 @@ This tool allows you to visualize key pathological cells directly on the origina
 
 Ensure your data is organized as follows within the repository or adjacent to it:
 
+```text
 hybrid-cell-classification/
 ├── Dataset/
-│   ├── images/       # Contains original microscopic images (.jpg/.png)
-│   └── contour/      # Contains contour JSON files (e.g., B5_141_contours.json)
-├── visualization.py       # Visualization entry point
+│   ├── images/
+│   └── contour/
+├── src/
+│   └── visualization.py
 └── ...
 
 
@@ -42,4 +45,5 @@ Run the main script to process images end-to-end (Crop -> Predict -> Visualize):
 
 # Run for a specific image (Recommended for testing)
 # Edit TARGET_IMG_ID in src/main.py before running
-python src/visualization.py
+```bash
+python visualization.py
