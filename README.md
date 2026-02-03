@@ -20,8 +20,8 @@ python evaluate.py --model convnext_base --loss spa --threshold tuned
 
 If you don’t have time to train the model from scratch, you can directly evaluate using our pretrained weights hosted on - [ConvNext_SCTC (Hugging Face)](https://huggingface.co/SoftmaxSamurai/ConvNext_SCTC)
 
-```md
-👁️ Visualization Tool (New Feature)
+
+## 👁️ Visualization Tool (New Feature)
 
 This tool allows you to visualize key pathological cells directly on the original microscopic images, highlighting high-risk areas based on AI predictions.
 
