@@ -37,7 +37,7 @@ hybrid-cell-classification/
 ├── src/
 │   └── visualization.py
 └── ...
-
+```
 
 2. Run Visualization
 
